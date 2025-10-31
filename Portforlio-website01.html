@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio Demo</title>
+  </head>
+  <body>
+    <div class="top-navbar">
+      <h1 class="logo">Nate <span class="logo-span">の</span> Portfolio</h1>
+      <div class="hamburger" id="hamburger-icon"><i class="fa-solid fa-bars"></i></div>
+      <nav>
+        <ul class="navbar">
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Contact</a></li>
+          <div style="position: relative; right: 0">
+            <button type="button" class="theme-swap" id="themeSwap">
+              <i class="fa-solid fa-moon fa-theme"></i>
+            </button>
+          </div>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="flex-container">
+      <div class="image">
+        <img
+          src="images/赤い空気感の男子.jpg"
+          class="my-image"
+          alt="my image"
+        />
+      </div>
+      <div class="text-container">
+        <div class="c-data">
+          <h2>Hi, I'm <span class="header-span">Nate</span></h2>
+          <p class="shot-description">
+            I'm <span class="article"></span>
+            <span class="red-text text-swap"></span>
+          </p>
+
+          <div class="des-wrapper">
+            <p>
+              <!-- cspell:disable -->
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
+              veniam aliquid odit nulla facilis quae vitae reprehenderit sunt
+              saepe optio culpa animi unde illum fuga, perferendis a minus
+              dignissimos sapiente, enim dolorem? Quos saepe officiis quasi
+              delectus quo voluptate! Vel laboriosam omnis cupiditate quisquam
+              labore neque pariatur voluptates repellendus maiores?
+              <!-- cspell:enable -->
+            </p>
+          </div>
+        </div>
+        <div class="icons">
+          <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+          <a href="#"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+        <div class="hire-button">
+          <a href="#">More Information</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
