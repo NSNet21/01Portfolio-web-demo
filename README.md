@@ -15,10 +15,10 @@
 ## 🖼️ Preview
 
 ### ☀️ Light Theme
-![Light Theme Preview](asset-preview/lighttheme-preview.jpeg)
+![Light Theme Preview](assets-preview/lighttheme-preview.jpeg)
 
 ### 🌙 Dark Theme
-![Dark Theme Preview](asset-preview/darktheme-preview.jpeg)
+![Dark Theme Preview](assetsgi-preview/darktheme-preview.jpeg)
 
 ---
 
