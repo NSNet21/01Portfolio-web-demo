@@ -18,7 +18,7 @@
 ![Light Theme Preview](assets-preview/lighttheme-preview.jpeg)
 
 ### 🌙 Dark Theme
-![Dark Theme Preview](assetsgi-preview/darktheme-preview.jpeg)
+![Dark Theme Preview](assets-preview/darktheme-preview.jpeg)
 
 ---
 
